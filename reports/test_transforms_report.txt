@@ -1,0 +1,11 @@
+=============================================
+RICEGUARD AI - TRANSFORMS TEST
+=============================================
+File gambar: dataset/split/train/Bacterial leaf blight/DSC_0700.jpg
+Shape train: torch.Size([3, 224, 224])
+Shape validation: torch.Size([3, 224, 224])
+Tipe data: torch.float32
+Nilai minimum: -2.1179039478302
+Nilai maksimum: 2.640000104904175
+
+Transformasi data berhasil diuji.

@@ -1,0 +1,27 @@
+=============================================
+RICEGUARD AI - DATA LOADER TEST
+=============================================
+
+Jumlah gambar:
+Train      : 84
+Validation : 18
+Test       : 18
+
+Nama kelas:
+['Bacterial leaf blight', 'Brown spot', 'Leaf smut']
+
+Pemetaan label:
+{'Bacterial leaf blight': 0, 'Brown spot': 1, 'Leaf smut': 2}
+
+Batch pertama:
+Shape gambar : torch.Size([8, 3, 224, 224])
+Shape label  : torch.Size([8])
+Tipe gambar  : torch.float32
+Label        : [2, 0, 2, 0, 1, 1, 1, 2]
+
+Jumlah batch:
+Train      : 11
+Validation : 3
+Test       : 3
+
+DataLoader berhasil diuji.

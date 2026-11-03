@@ -1,0 +1,5 @@
+Model: RiceGuardModel
+Input shape: torch.Size([1, 3, 224, 224])
+Output shape: torch.Size([1, 3])
+Jumlah kelas: 3
+Model berhasil diuji.

@@ -1,0 +1,88 @@
+# =========================================================
+# RiceGuard AI — files that should not be committed to GitHub
+# =========================================================
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local environment variables / secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Dataset and image data (large / user-provided data)
+dataset/
+data/
+raw_data/
+processed_data/
+
+# Model weights, checkpoints, and exported models (often large)
+checkpoints/
+weights/
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.hdf5
+*.onnx
+*.tflite
+*.safetensors
+
+# Training outputs and experiment artifacts
+outputs/
+runs/
+wandb/
+mlruns/
+tensorboard/
+lightning_logs/
+
+# Generated reports, temporary files, and logs
+logs/
+*.log
+tmp/
+temp/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS / Windows system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Build / packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Local databases
+*.sqlite
+*.sqlite3
+*.db

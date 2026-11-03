@@ -1,0 +1,11 @@
+Test accuracy: 88.8889%
+
+                       precision    recall  f1-score   support
+
+Bacterial leaf blight     1.0000    1.0000    1.0000         6
+           Brown spot     1.0000    0.6667    0.8000         6
+            Leaf smut     0.7500    1.0000    0.8571         6
+
+             accuracy                         0.8889        18
+            macro avg     0.9167    0.8889    0.8857        18
+         weighted avg     0.9167    0.8889    0.8857        18
